@@ -22,6 +22,14 @@ h1 {
   grid-column: span 2;
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
 .output {
   display: flex;
   justify-content: end;

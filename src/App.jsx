@@ -59,6 +59,7 @@ function App() {
 
   return (
     <div className="calculator-grid">
+      <div className="title">React Calculator</div>
       <div className="output">
         {output.every((item) => !item) ? 0 : output.join(" ")}
       </div>
